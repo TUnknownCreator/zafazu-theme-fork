@@ -1,5 +1,5 @@
 :root {
-  --theme-version: 'Dev 1.2 / 2.12.1';
+  --theme-version: 'Dev 1.3.10 / 2.12.2'; /*there is another update coming but too lazy*/
   --profile-gradient-overlay-color: #4d444444 !important;
   --theme-transparency-amount: 0.5;
   --theme-blur-amount: 1px;
@@ -1385,4 +1385,7 @@ section.panels__5e434 .container__37e49     { order: var(--ics-panel-order-user)
   transform:        translateZ(0);
 }
 
-/*                                  */
+/*idk who uses this but removed.. also i forgot where was the old one (zafazu please remove it)*/
+.redesignFooter__272c7{
+    display:none
+}
