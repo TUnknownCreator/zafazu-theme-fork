@@ -1331,26 +1331,6 @@ section.panels__5e434 .container__37e49     { order: var(--ics-panel-order-user)
   color: var(--text-normal, #ffffff) !important;
 }
 
-/* Tab Friend card */
-.root__49fc1.root__49fc1 {
-  background-color: rgba(19, 20, 22, .3);
-  border-radius:    var(--radius-md);
-}
-
-.footerSeparator__49fc1,
-.separator__49fc1 {
-  box-shadow:       none;
-  background-color: rgba(19, 20, 22, 0.1);
-}
-
-.tips_ea12e5 {
-  background-color: rgba(23, 24, 26, 0.6);
-  border-radius:    8px;
-  margin:           16px 0;
-  padding:          16px;
-}
-
-
 /* ── MISC ────────────────────────────────────────────────── */
 
 /* Mutual GDMs tab layout */
@@ -1385,7 +1365,7 @@ section.panels__5e434 .container__37e49     { order: var(--ics-panel-order-user)
   transform:        translateZ(0);
 }
 
-/*idk who uses this but removed.. also i forgot where was the old one (zafazu please remove it)*/
+/*idk who uses this but removed.. also i forgot where was the old one (zafazu please remove it)S*/
 .redesignFooter__272c7{
     display:none
 }
