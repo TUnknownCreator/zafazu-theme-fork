@@ -1400,5 +1400,5 @@ section.panels__5e434 .container__37e49     { order: var(--ics-panel-order-user)
 
 /* temp fix for button text colors (REMOVE)*/
 .lineClamp1__4bd52.text-md\/medium_cf4812 {
-    color: rgb(220, 221, 222);
+    color: var(--text-normal)
 }
