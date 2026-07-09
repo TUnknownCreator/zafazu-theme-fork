@@ -1,9 +1,9 @@
 :root {
-  --theme-version: 'Dev 1.3.10 / 2.12.2'; /*there is another update coming but too lazy*/
+  --theme-version: 'Dev 1.3.10 / 2.12.21'; /*fixes or more bugs, you choose*/
   --profile-gradient-overlay-color: #4d444444 !important;
   --theme-transparency-amount: 0.5;
   --theme-blur-amount: 1px;
-  --main-color: #5865F2;
+  --main-color: #292929; /* zafazu doesn't like blue #5865F2 */
   --main-color-border: #1A1717;
   --hover-color: #747474;
   --success-color: #8411b9;
@@ -1368,4 +1368,37 @@ section.panels__5e434 .container__37e49     { order: var(--ics-panel-order-user)
 /*idk who uses this but removed.. also i forgot where was the old one (zafazu please remove it)S*/
 .redesignFooter__272c7{
     display:none
+}
+
+.root__49fc1.root__49fc1,
+.footerSeparator__49fc1,
+.separator__49fc1,
+.tips_ea12e5 {
+    backdrop-filter: blur(12px);
+}
+
+/* invisible transparency with blur for modals background */
+.root__49fc1.root__49fc1 {
+    background-color: rgba(19, 20, 22, 0.5);
+    border-radius: var(--radius-md);
+}
+
+/* Separators fix*/
+.footerSeparator__49fc1,
+.separator__49fc1 {
+    box-shadow: none;
+    background-color: rgba(19, 20, 22, 0.1);
+}
+
+/* Tips fix*/
+.tips_ea12e5 {
+    background-color: rgba(23, 24, 26, 0.6);
+    border-radius: 8px;
+    margin: 16px 0;
+    padding: 16px;
+}
+
+/* temp fix for button text colors (REMOVE)*/
+.lineClamp1__4bd52.text-md\/medium_cf4812 {
+    color: rgb(220, 221, 222);
 }
